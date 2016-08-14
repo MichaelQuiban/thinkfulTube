@@ -1,8 +1,10 @@
-body{
+body {
 	background-color:#FFF;
 	margin:0em;
+	font-family: 'Roboto Mono', monospace;
+
 }
-#bg-second{
+#bg-second {
 	background-color:#9daccb;
 	position:fixed;
 	top:0;
@@ -14,7 +16,7 @@ body{
 
 /* Fixed Design choices above */
 
-.api-header{
+.api-header {
 	background-color: #FFF;
 	border-color: #3c3833;
 	border-style: solid;
@@ -24,6 +26,12 @@ body{
 	height: 9em;
 	margin: 0 auto;
 	margin-top: 3.5em;
+}
+
+#search-area {
+	position:relative;
+	margin-left:25.5%;
+	margin-top:15%;
 }
 
 li {
