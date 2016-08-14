@@ -1,4 +1,40 @@
-body {
-	background-color:red;
+body{
+	background-color:#FFF;
+	margin:0em;
+}
+#bg-second{
+	background-color:#9daccb;
+	position:fixed;
+	top:0;
+	bottom:0;
+	right:0;
+	left:50%;
+	z-index:-1;
+}
+
+/* Fixed Design choices above */
+
+.api-header{
+	background-color: #FFF;
+	border-color: #3c3833;
+	border-style: solid;
+	border-width: 1.2px;
+	padding: 0em;
+	width: 25%;
+	height: 9em;
+	margin: 0 auto;
+	margin-top: 3.5em;
+}
+
+li {
+	display: block;
+	list-style: none;
+}
+h3 {
+	font-family: 'Slabo 27px', serif;
+	font-size: 2em;
+	color: #3B5998;
+	font-align:center;
+	margin-top: 1.8em;
 }
 
